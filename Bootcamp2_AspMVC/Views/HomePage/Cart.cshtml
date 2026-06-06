@@ -1,0 +1,87 @@
+﻿@model IEnumerable<CartItem>
+
+@{
+    ViewData["Title"] = "سلة التسوق";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<div class="container py-5">
+    <h2 class="mb-4">🛒 سلة التسوق</h2>
+
+    @if (TempData["Success"] != null)
+
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">السلة فارغة حالياً.</div>
+    }
+    else
+    {
+        <table class="table table-bordered text-center align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>المنتج</th>
+                    <th>السعر</th>
+                    <th>الكمية</th>
+                    <th>الإجمالي</th>
+                    <th>الإجراءات</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Product.ProductName</td>
+                        <td>$@item.Product.Price</td>
+                        <td>
+                            <form asp-action="UpdateQuantity" method="post" class="d-flex justify-content-center">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <input type="number" name="qty" value="@item.Quantity" min="1" class="form-control text-center" style="width:80px;" />
+                                <button type="submit" class="btn btn-sm btn-primary ms-2">تحديث</button>
+                            </form>
+                        </td>
+                        <td>$@(item.Product.Price* item.Quantity)</td>
+                        <td>
+                            <a asp-action="RemoveFromCart" asp-route-id="@item.Id" class="btn btn-sm btn-danger">حذف</a>
+                        </td>
+                    </tr>
+                   
+                }
+
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" asp-action="Index">عودة للمتجر </a></div>
+                </div>
+
+               
+            </tbody>
+        </table>
+
+        @if (Model.Any())
+
+        {
+            <div class="mt-4 text-end">
+                <form asp-action="CreateOrder" method="post">
+                    <input type="hidden" name="custId" value="@Model.First().CustomerId" />
+                    <button type="submit" class="btn btn-success btn-lg">
+                        ✅ تأكيد الطلب
+                    </button>
+                </form>
+            </div>
+        }
+
+
+    }
+
+
+
+
+</div>

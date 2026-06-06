@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Employee>
+@{
+    ViewData["Title"] = "Index";
+    // layout="~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>Employee List</h1>
+<partial name="_NotificationsPartial" />
+<div class="text-end">
+    <a asp-action="Create" class="btn btn-primary mb-3">Create New</a>
+</div>
+
+<table class="table table-striped mb-3">
+
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Email</th>
+            <th>Salary</th>
+            <th>Lock</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.FirstName</td>
+                <td>@emp.LastName</td>
+                <td>@emp.Email</td>
+             
+                <td>@emp.Salary</td>
+                <td>
+                    @if(emp.Islock)
+                    {
+                        <input type="checkbox" checked  disabled />
+                       // <span class="text-danger">Locked</span>
+                    }
+                    else
+                    {
+                        <input type="checkbox" disabled />
+                      
+                    }
+
+                </td>
+
+                <td>  </td>
+                <td>
+                    <a asp-action="Edit" asp-route-Id="@emp.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-Id="@emp.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+
+        }
+
+
+
+    </tbody>
+
+
+</table>
+

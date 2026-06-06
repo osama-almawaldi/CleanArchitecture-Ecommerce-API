@@ -1,0 +1,25 @@
+﻿@model Permission
+@{
+    ViewData["Title"] = "Edit";
+
+}
+
+<h1>Edit Permission</h1>
+
+<div class="container">
+    <form asp-action="Edit" method="post">
+        @Html.AntiForgeryToken()
+
+        <partial name="_Form" model="Model" />
+
+        <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a asp-action="Index" class="btn btn-secondary">Back</a>
+        </div>
+
+    </form>
+
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

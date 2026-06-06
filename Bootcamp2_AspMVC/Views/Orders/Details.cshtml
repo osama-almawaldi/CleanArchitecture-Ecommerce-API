@@ -1,0 +1,43 @@
+﻿
+@model Bootcamp2_AspMVC.Models.Order
+@{
+    ViewData["Title"] = "تفاصيل الطلب";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<div class="container py-4">
+    <h3>تفاصيل الطلب</h3>
+    <hr />
+
+    <p><strong>رقم الطلب:</strong> @Model.OrderNumber</p>
+    <p><strong>الحالة:</strong> @Model.Status</p>
+    <p><strong>تاريخ الإنشاء:</strong> @Model.CreatedAt.ToLocalTime().ToString("yyyy/MM/dd HH:mm")</p>
+
+    <h5>المنتجات</h5>
+    <table class="table table-bordered text-center">
+        <thead>
+            <tr>
+                <th>المنتج</th>
+                <th>السعر</th>
+                <th>الكمية</th>
+                <th>الإجمالي</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var it in Model.Items)
+            {
+                <tr>
+                    <td>@it.Product?.ProductName</td>
+                    <td>@it.UnitPrice</td>
+                    <td>@it.Quantity</td>
+                    <td>@(it.UnitPrice * it.Quantity)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <p class="fw-bold">الإجمالي: @Model.Total</p>
+
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">🏠 العودة للمتجر</a>
+</div>
+

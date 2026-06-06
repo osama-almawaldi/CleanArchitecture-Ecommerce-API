@@ -1,0 +1,80 @@
+﻿ <script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<h1>Category List</h1>
+
+@* @if(Model !=null && Model.Any())
+{
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        تم تحميل البيانات بنجاح ✅
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+else
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        فشل في تحميل البيانات ❌
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+} *@
+
+
+
+@if (TempData["Sucees"] != null)
+{
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Sucees"] ✅
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <script>
+        toastr.success('@TempData["Sucees"]', 'نجاح');
+        
+    </script>
+
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"] ❌
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <script>
+        toastr.error('@TempData["Error"]', 'خطأ');
+    </script>
+}
+@if (TempData["Add"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Add"] ❌
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <script>
+        toastr.success('@TempData["Add"]', 'خطأ');
+    </script>
+}
+@if (TempData["Update"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Update"] ❌
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <script>
+        toastr.success('@TempData["Update"]', 'خطأ');
+    </script>
+
+}
+@if (TempData["Remove"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Remove"] ❌
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <script>
+        toastr.error('@TempData["Remove"]', 'خطأ');
+    </script>
+}
+
+
+

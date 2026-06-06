@@ -1,0 +1,6 @@
+@BooCamp2_AspAPI_HostAddress = http://localhost:5098
+
+GET {{BooCamp2_AspAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootcamp2_AspMVC", "Bootcamp2_AspMVC\Bootcamp2_AspMVC.csproj", "{30BF548C-143B-434C-ADC0-1EC47E5EA320}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootCamp2_AspAPI", "BooCamp2_AspAPI\BootCamp2_AspAPI.csproj", "{2FA4AEFB-B59A-4758-B8B4-269474B7B24C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30BF548C-143B-434C-ADC0-1EC47E5EA320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BF548C-143B-434C-ADC0-1EC47E5EA320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BF548C-143B-434C-ADC0-1EC47E5EA320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BF548C-143B-434C-ADC0-1EC47E5EA320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA4AEFB-B59A-4758-B8B4-269474B7B24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA4AEFB-B59A-4758-B8B4-269474B7B24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA4AEFB-B59A-4758-B8B4-269474B7B24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA4AEFB-B59A-4758-B8B4-269474B7B24C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4C1E917-899C-409E-B6F1-040078082704}
+	EndGlobalSection
+EndGlobal

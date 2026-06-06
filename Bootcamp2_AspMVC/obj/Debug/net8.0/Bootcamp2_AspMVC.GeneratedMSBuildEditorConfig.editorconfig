@@ -1,0 +1,205 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Bootcamp2_AspMVC
+build_property.RootNamespace = Bootcamp2_AspMVC
+build_property.ProjectDir = /Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/CustomerClient/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJDbGllbnQvbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/CustomersAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzQWRtaW4vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/CustomersAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzQWRtaW4vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/CustomersAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzQWRtaW4vRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/CustomersAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzQWRtaW4vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/CustomersAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvZW1wbG95ZWVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvZW1wbG95ZWVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvZW1wbG95ZWVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvZW1wbG95ZWVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/HomeEmployee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZUVtcGxveWVlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/HomePage/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZVBhZ2UvQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/HomePage/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZVBhZ2UvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/HomePage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZVBhZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Permissions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVybWlzc2lvbnMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Permissions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVybWlzc2lvbnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Permissions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVybWlzc2lvbnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Permissions/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVybWlzc2lvbnMvX0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Shared/_LayoutCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Shared/_NotificationsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Ob3RpZmljYXRpb25zUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Supliers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwbGllcnMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Supliers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwbGllcnMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Supliers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwbGllcnMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Supliers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwbGllcnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Supliers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwbGllcnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hjhwrx05ne
+
+[/Users/os/Downloads/Bootcamp2_AspMVC-master/Bootcamp2_AspMVC/Views/Shared/_LayoutEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-rzisaefvir
